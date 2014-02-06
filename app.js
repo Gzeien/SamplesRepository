@@ -4,5 +4,5 @@ var http = require('http');
 
 http.createServer(function(req,res) {
      res.writeHead(200,{'Content-Type' : 'text/plain'});
-     res.end('Hello World from NodeJS - GZ');
+     res.end('Hello World from NodeJS - GZ THis is new code');
 }).listen(port,host);
